@@ -16,10 +16,47 @@ form {
   border: 2px grey;
   width: 80%;
   height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  /* color: aliceblue; */
 }
 .social {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px red dashed;
+  /* border: 2px red dashed; */
+  padding: 2vh;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px red dashed; */
+  padding: 2vh;
+}
+input {
+  margin: 2vw auto;
+  display: block;
+  width: 30%;
+  border: none;
+  border-bottom: 2px grey;
+  background-color: rgb(182, 212, 203);
+  text-align: center;
+}
+button {
+  border: none;
+  color: aliceblue;
+  padding: 1vh;
+}
+.button__f {
+  background-color: rgb(30, 186, 238);
+}
+.button__g {
+  background-color: rgb(240, 10, 10);
+}
+.button__t {
+  background-color: rgb(5, 224, 224);
 }

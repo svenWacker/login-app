@@ -12,14 +12,14 @@
   <body>
     <form class="pagestyle">
       <fieldset class="social">
-        <button type="social">
-          <i class="fab fa-facebook-f"></i> Facebook login
-        </button>
-        <button type="social">
-          <i class="fab fa-instagram"></i> Google login
-        </button>
-        <button type="social">
-          <i class="fab fa-twitter"></i> Twitter login
+        <button class="button__f">
+          <i class="fab fa-facebook-f"></i> Facebook</button
+        ><br />
+        <button class="button__g">
+          <i class="fab fa-instagram"></i> Instagram</button
+        ><br />
+        <button class="button__t">
+          <i class="fab fa-twitter"></i> Twitter
         </button>
       </fieldset>
       <fieldset>
@@ -32,19 +32,21 @@
         <input type="text" name="password" placeholder="password" id="2" />
 
         <section class="login_button">
-          <label class="remeber">Remember me</label>
+          <label class="remember">Remember me</label>
           <input type="checkbox" name="rememberMe" />
-          <button>Login</button>
+          <button id="l">Login</button>
         </section>
       </fieldset>
+
       <fieldset class="register">
-        <label class="toggle-table">Register now <span>|</span> Forgotten</label>
+        <label class="toggle-table"
+          >Register now <span>|</span> Forgotten</label
+        >
         <label class="switch">
           <input type="checkbox" name="moreInfo" />
           <span class="slider"></span>
         </label>
       </fieldset>
-      </div>
     </form>
   </body>
 </html>
