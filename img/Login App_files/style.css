@@ -74,7 +74,12 @@ div input {
   background-color: white;
   border-radius: 100%;
 }
-
+input:checked + .slider {
+  background-color: lightsteelblue;
+}
+input:checked + .slider::before {
+  transform: translateX(2.5rem);
+}
 i {
   font-size: 2rem;
   color: white;
