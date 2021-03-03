@@ -11,43 +11,40 @@
   </head>
   <body>
     <form class="pagestyle">
-      <div class="social_container">
-        <div class="social_media">
-          <button type="social">
-            <i class="fab fa-facebook-f"></i> Facebook login</button>
-          <button type="social">
-            <i class="fab fa-instagram"></i> Google login</button>
-          <button type="social">
-            <i class="fab fa-twitter"></i> Twitter login</button>
-        </div>
-      <div class="middle">
-        <h2>--O--</h2>
-      </div>
-      <div class="login_container"></div>
-      <form class="login_field">
-        <fieldset>
-          <label class="login-table">Sign in with</label>
-          <input
-            type="text"
-            name="name"
-            placeholder="Username or email"
-            id="1"/>
-          <input type="text" name="password" placeholder="password" id="2" />
-      <section class="login_button">
+      <fieldset class="social">
+        <button type="social">
+          <i class="fab fa-facebook-f"></i> Facebook login
+        </button>
+        <button type="social">
+          <i class="fab fa-instagram"></i> Google login
+        </button>
+        <button type="social">
+          <i class="fab fa-twitter"></i> Twitter login
+        </button>
+      </fieldset>
+      <fieldset>
+        <p>--Or--</p>
+      </fieldset>
+
+      <fieldset class="login">
+        <label class="login-table">Sign in with</label>
+        <input type="text" name="name" placeholder="Username or email" id="1" />
+        <input type="text" name="password" placeholder="password" id="2" />
+
+        <section class="login_button">
           <label class="remeber">Remember me</label>
           <input type="checkbox" name="rememberMe" />
-          <button> Login</button>
-      </section>
-        </fieldset>
-      </form>
-      <div class="bottom">
+          <button>Login</button>
+        </section>
+      </fieldset>
+      <fieldset class="register">
         <label class="toggle-table">Register now</label>
         <label class="switch">
           <input type="checkbox" name="moreInfo" />
           <span class="slider"></span>
         </label>
+      </fieldset>
       </div>
     </form>
-    <section class="bottom"></section>
   </body>
 </html>
