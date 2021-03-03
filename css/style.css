@@ -23,19 +23,29 @@ form {
   /* color: aliceblue; */
 }
 .social {
-  display: flex;
+  width: 50%;
+  display: block;
   align-items: center;
   justify-content: center;
   /* border: 2px red dashed; */
   padding: 2vh;
+  align-items: center;
 }
 
 .login {
-  display: flex;
+  width: 50%;
+  display: block;
   align-items: center;
   justify-content: center;
   /* border: 2px red dashed; */
   padding: 2vh;
+  text-align: center;
+}
+.middle {
+  width: 50%;
+  height: 50%;
+  border: none;
+  text-align: center;
 }
 input {
   margin: 2vw auto;
@@ -47,6 +57,7 @@ input {
   text-align: center;
 }
 button {
+  width: 10rem;
   border: none;
   color: aliceblue;
   padding: 1vh;
@@ -59,4 +70,10 @@ button {
 }
 .button__t {
   background-color: rgb(5, 224, 224);
+}
+.button__l {
+  background-color: rgb(2, 124, 165);
+  border-radius: 0.3rem;
+  width: 4rem;
+  height: auto;
 }
