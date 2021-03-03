@@ -11,13 +11,13 @@ body {
   height: 100vh;
 }
 /* form */
-form {
+body {
   margin: 10%;
   border: 2px red dashed;
   width: 80%;
   height: 50%;
 }
-input {
+div input {
   margin: 2vw auto;
   display: block;
   width: 30%;
@@ -26,7 +26,12 @@ input {
   background-color: rgb(182, 212, 203);
   text-align: center;
 }
-.toggle {
+.social_media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,9 +81,9 @@ input:checked + .slider::before {
   transform: translateX(2.5rem);
 }
 i {
-  font-size: 3rem;
+  font-size: 2rem;
   color: aqua;
-  box-shadow: 3px 3px 3px red;
+  box-shadow: 2px 2px 2px rgb(32, 81, 90);
   border-radius: 50%;
 }
 /* fancy checkbox */

@@ -10,29 +10,45 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <form>
-      <fieldset>
-        <legend class="Sign in">Sign in with</legend>
-        <input type="text" name="name" placeholder="Username or email" id="1" />
-        <input
-          type="text"
-          name="lastName"
-          placeholder="Your last name"
-          id="2"
-        />
-        <input type="datetime" name="bDay" id="3" />
-      </fieldset>
-
-      <section class="">
-        <label class="toggle-table">Want more Info?</label>
+    <form class="pagestyle">
+      <div class="social_media">
+        <div class="social">
+          <button type="submit">
+            <i class="fab fa-facebook-f"></i> Facebook login</button
+          ><br />
+          <button type="submit">
+            <i class="fab fa-instagram"></i> Google login</button
+          ><br />
+          <button type="submit">
+            <i class="fab fa-twitter"></i> Twitter login
+          </button>
+        </div>
+      </div>
+      <div class="middle">
+        <h2>O</h2>
+      </div>
+      <div class="login"></div>
+      <form class="login">
+        <fieldset>
+          <label class="login-table">Sign in with</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Username or email"
+            id="1"
+          />
+          <input type="text" name="password" placeholder="password" id="2" />
+          <br />
+        </fieldset>
+      </form>
+      <div class="right">
+        <label class="toggle-table">Sign in with</label>
         <label class="switch">
           <input type="checkbox" name="moreInfo" />
           <span class="slider"></span>
         </label>
-      </section>
-
-      <i class="fab fa-facebook-messenger"></i>
-      <input type="submit" value="Send" />
+      </div>
     </form>
+    <section class="bottom"></section>
   </body>
 </html>
