@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login App</title>
-    <link rel="icon" href="./img/icon.png" />
+    <link rel="icon" href="./img/login.png" />
     <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <form>
       <fieldset>
-        <legend>Personal info</legend>
-        <input type="text" name="name" placeholder="Enter your name" id="1" />
+        <legend class="Sign in">Sign in with</legend>
+        <input type="text" name="name" placeholder="Username or email" id="1" />
         <input
           type="text"
           name="lastName"
@@ -22,18 +22,15 @@
         />
         <input type="datetime" name="bDay" id="3" />
       </fieldset>
-      <fieldset>
-        <legend>Fav things</legend>
-        <input type="color" name="color" id="4" />
-        <input type="time" name="time" id="5" />
-      </fieldset>
-      <section class="toggle">
+
+      <section class="">
         <label class="toggle-table">Want more Info?</label>
         <label class="switch">
           <input type="checkbox" name="moreInfo" />
           <span class="slider"></span>
         </label>
       </section>
+
       <i class="fab fa-facebook-messenger"></i>
       <input type="submit" value="Send" />
     </form>

@@ -12,9 +12,9 @@ body {
 }
 /* form */
 form {
-  margin: 25%;
+  margin: 10%;
   border: 2px red dashed;
-  width: 50%;
+  width: 80%;
   height: 50%;
 }
 input {
