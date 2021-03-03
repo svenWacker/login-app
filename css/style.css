@@ -16,14 +16,14 @@ form {
   border: 2px grey;
   width: 80%;
   height: 50%;
-  /* display: -webkit-box;
+  display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; */
+  display: flex;
 
   /* color: aliceblue; */
 }
 .social {
-  width: 50%;
+  height: 85%;
   display: block;
   align-items: center;
   justify-content: center;
@@ -33,7 +33,7 @@ form {
 }
 
 .login {
-  width: 50%;
+  height: 85%;
   display: block;
   align-items: center;
   justify-content: center;
@@ -42,10 +42,24 @@ form {
   text-align: center;
 }
 .middle {
-  width: 50%;
-  height: 50%;
+  height: 85%;
   border: none;
   text-align: center;
+}
+.register {
+  margin: auto;
+  height: 15%;
+  border: 2px grey solid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(231, 231, 231);
+  color: rgb(30, 186, 238);
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 input {
   margin: 2vw auto;
@@ -57,10 +71,12 @@ input {
   text-align: center;
 }
 button {
-  width: 10rem;
+  width: 8rem;
+  height: 2rem;
   border: none;
   color: aliceblue;
   padding: 1vh;
+  margin: 5%;
 }
 .button__f {
   background-color: rgb(30, 186, 238);
