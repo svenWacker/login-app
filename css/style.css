@@ -30,7 +30,7 @@ body {
 .social_block {
   display: block;
   text-align: center;
-  width: 50%;
+  width: 52%;
   padding-left: 30px;
 }
 
@@ -57,7 +57,7 @@ button {
   display: flex;
   width: 5%;
   align-items: center;
-  padding: 0px 20px;
+  padding: 0px 30px;
 }
 .middle_or {
   border: rgba(199, 199, 199, 0.8) solid 1.5px;
@@ -72,7 +72,7 @@ button {
   background-color: rgba(199, 199, 199, 0.8);
   height: 180px;
   width: 1px;
-  transform: translate(-19px);
+  transform: translate(-18px);
   z-index: 0;
   margin: 0;
 }
@@ -88,9 +88,13 @@ button {
 .login_block h2 {
   color: grey;
 }
+.login_block i {
+  transform: translate(-12px);
+}
 input {
   background-color: rgb(250, 250, 250);
   border: none;
+  border-bottom: solid rgba(199, 199, 199, 0.8) 1px;
 }
 /* register block */
 .register {
@@ -103,6 +107,7 @@ input {
   height: 30px;
 }
 .register_text {
+  transform: ;
   font-weight: bold;
   color: rgb(30, 186, 238);
   padding: 10vh;
