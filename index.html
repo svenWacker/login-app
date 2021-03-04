@@ -12,7 +12,7 @@
   <body>
     <div class="pagestyle">
       <div class="input_content">
-        <div class="social">
+        <div class="social_block">
           <button class="button__f">
             <i class="fab fa-facebook-f"></i> Facebook</button
           ><br />
@@ -23,31 +23,34 @@
             <i class="fab fa-twitter"></i> Twitter
           </button>
         </div>
-        <div class="middle">
+        <div class="middle_block">
           <div class="middle_or">OR</div>
           <div class="middle_line">,</div>
         </div>
         <div class="login_block">
           <div class="login_field">
             <h2 class="login_table">Sign in with</h2>
-            <span class="User">
-              <i class="fas fa-user-astronaut"></i>
+            <div class="user_field">
+              <i class="fas fa-user"></i>
+              <label for="name" class="login_name"></label>
               <input
                 type="text"
                 name="name"
                 placeholder="Username or email"
                 id="1"
               />
-            </span>
-            <span class="pass">
-              <i class="fas fa-unlock-alt"></i>
+            </div>
+            <br />
+            <div class="password_field">
+              <i class="fas fa-lock"></i>
+              <label for="pw" class="login_password"></label>
               <input
                 type="text"
                 name="password"
-                placeholder="password"
+                placeholder="Password"
                 id="2"
               />
-            </span>
+            </div>
           </div>
           <div class="login_button">
             <input type="checkbox" name="rememberMe" />
