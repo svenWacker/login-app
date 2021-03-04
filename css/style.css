@@ -21,9 +21,28 @@ body {
 .input_content {
   display: flex;
   align-items: center;
-  min-height: 300px;
+  /* height: 80vh; */
 }
-.content__bottom {
+
+.social {
+  display: block;
+  text-align: center;
+  width: 40%;
+  padding-left: 30px;
+}
+.middle {
+  display: flex;
+  width: 5%;
+  align-items: center;
+  padding: 0px 20px;
+}
+.login {
+  display: block;
+  text-align: center;
+  width: 50%;
+  padding-right: 30px;
+}
+.register {
   display: flex;
   align-items: center;
   text-align: center;
