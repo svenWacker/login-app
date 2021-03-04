@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <form class="pagestyle">
-      <section class="input">
-        <fieldset class="social">
+    <div class="pagestyle">
+      <div class="input_content">
+        <div class="social">
           <button class="button__f">
             <i class="fab fa-facebook-f"> | </i> Facebook</button
           ><br />
@@ -20,14 +20,13 @@
             <i class="fab fa-instagram"> | </i> Instagram</button
           ><br />
           <button class="button__t">
-            <i class="fab fa-twitter"> |</i> Twitter
+            <i class="fab fa-twitter"> | </i> Twitter
           </button>
-        </fieldset>
-        <fieldset class="middle">
+        </div>
+        <div class="middle">
           <p>Or</p>
-        </fieldset>
-
-        <fieldset class="login">
+        </div>
+        <div class="login">
           <label class="login-table">Sign in with</label>
           <input
             type="text"
@@ -37,14 +36,15 @@
           />
           <input type="text" name="password" placeholder="password" id="2" />
 
-          <section class="login_button">
+          <div class="login_button">
             <label class="remember">Remember me</label>
             <input type="checkbox" name="rememberMe" />
             <button class="button__l">Login</button>
-          </section>
-        </fieldset>
-      </section>
-      <fieldset class="register">
+          </div>
+        </div>
+      </div>
+
+      <div class="register">
         <label class="toggle-table"
           >Register now <span>|</span> Forgotten?</label
         >
@@ -52,7 +52,7 @@
           <input type="checkbox" name="moreInfo" />
           <span class="slider"></span>
         </label>
-      </fieldset>
-    </form>
+      </div>
+    </div>
   </body>
 </html>

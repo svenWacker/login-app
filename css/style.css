@@ -2,42 +2,57 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 body {
-  font-family: "Ubuntu", sans-serif, "Segoe UI", Tahoma, Geneva, Verdana,
-    sans-serif;
-  width: 100vw;
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10% auto;
+}
+.pagestyle {
+  display: flex;
+  background-color: rgb(250, 250, 250);
+  border: 1px rgba(199, 199, 199, 0.8) solid;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+.input_content {
+  display: flex;
+  align-items: center;
+  min-height: 300px;
+}
+.content__bottom {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  background-color: #7c8286;
+  border-top: solid rgba(199, 199, 199, 0.8) 1px;
 }
 /* form */
-form {
-  margin: 20% auto;
+/* form {
+  margin: 10% auto;
   border: 2px grey;
   width: 80%;
   height: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-
-  /* color: aliceblue; */
 }
 .social {
   height: 85%;
   display: block;
   align-items: center;
   justify-content: center;
-  /* border: 2px red dashed; */
+  border: 2px red dashed;
   padding: 2vh;
   align-items: center;
-}
+} */
 
-.login {
+/* .login {
   height: 85%;
   display: block;
   align-items: center;
   justify-content: center;
-  /* border: 2px red dashed; */
   padding: 2vh;
   text-align: center;
 }
@@ -67,7 +82,7 @@ input {
   width: 30%;
   border: none;
   border-bottom: 2px grey;
-  background-color: rgb(182, 212, 203);
+
   text-align: center;
 }
 button {
@@ -92,4 +107,4 @@ button {
   border-radius: 0.3rem;
   width: 4rem;
   height: auto;
-}
+} */
