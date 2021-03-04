@@ -17,6 +17,7 @@ body {
   border: 1px rgba(199, 199, 199, 0.8) solid;
   width: 65%;
   max-width: 750px;
+  text-align: center;
 }
 .input_content {
   display: flex;
@@ -81,19 +82,25 @@ button {
   width: 50%;
   padding-right: 40px;
 }
+
+h2 {
+  color: black;
+  /* padding: 1vh;
+  margin: 5%; */
+}
 .register {
-  /* display: flex; */
+  border-top: solid rgba(199, 199, 199, 0.8) 1px;
   align-items: center;
   text-align: center;
+  justify-content: center;
   align-content: center;
   background-color: #cbe3f1;
-  height: auto;
-
-  /* border: 1px red solid; */
+  height: 30px;
 }
 .register_text {
-  text-align: center;
+  font-weight: bold;
   color: rgb(30, 186, 238);
+  padding: 10vh;
 }
 .register_text span {
   color: rgba(199, 199, 199, 0.8);
@@ -108,9 +115,4 @@ button {
   border-radius: 0.3rem;
   width: 4rem;
   height: auto;
-}
-h2 {
-  color: black;
-  /* padding: 1vh;
-  margin: 5%; */
 }
