@@ -103,13 +103,17 @@ input {
   text-align: center;
   justify-content: center;
   align-content: center; */
+  /* justify-content: space-around; */
   background-color: #cbe3f1;
-  height: 30px;
+  height: 5vh;
+}
+.register label {
+  justify-content: center;
 }
 .register_text {
   font-weight: bold;
   color: rgb(30, 186, 238);
-  padding: 10vh;
+  /* padding: 10vh; */
 }
 .register_text span {
   color: rgba(199, 199, 199, 0.8);
